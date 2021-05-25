@@ -9,4 +9,4 @@ class RegisterForm:
     website_locator = (By.XPATH, '//input[@name="url"]')
     phone_locator = (By.XPATH, '//input[@id="phoneNumber"]')
     submit_button_locator = (
-        By.XPATH, '//button[@class="btn center-block form-btn form-btn"]')
+        By.XPATH, '//button[@type="submit"]')
