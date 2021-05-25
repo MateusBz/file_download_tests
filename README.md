@@ -20,7 +20,7 @@ The test site and test cases are in English. Technologies: Python, Selenium WebD
 - 'Online Consumer Trends 2020'
 - 'How Marketing Automation is changed by AI and Data Science'
 - 'How Live Chat is redefined by AI, Machine Learning, Deep Learning and Bots'
-- '10 success stories of Europes biggest brands implementing marketing automation'
+- '10 success stories of Europe biggest brands implementing marketing automation'
 - 'Complete Marketing Automation Product Profile'
 - '2018 European Digital Marketing Survey'
 - 'The Complete GDPR Guidebook'
