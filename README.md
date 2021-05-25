@@ -62,12 +62,12 @@ pipenv install
 ```
 pipenv shell
 ```
-5. Run all tests, add the book title in quotes
+5. Run all tests, add the book title from list in quotes
 ```
 pytest -v --book_title 'The Complete GDPR Guidebook'
 ```
 
-6. Run selected test, add the book title in quotes
+6. Run selected test, add the book title from list in quotes
 ```
 pytest -vk test_chrome.py --book_title 'The Complete GDPR Guidebook'
 ```
