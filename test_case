@@ -1,0 +1,17 @@
+ID 1.1
+	Title: Downloading the e-book.  
+	Environment: Linux Mint 20.01, geckodriver-v0.29.1-linux64, chromedriver_v90_linux64
+	Version: 1.0
+	Preconditions: 
+    - The user should have a stable internet connection
+    - The user should have an email that matches the template
+        '<name>.<surname>.benhauer+testrekrutacja@salesmanago.com'
+	Steps: 
+	  1. Open 'https://www.salesmanago.com/'
+	  2. Click on 'resources'
+	  3. Select 'Ebooks' and click
+	  4. Select one of books and click
+	  5. Enter the correct data into the form 
+	  6. Click 'Download'
+	Expected result: The e-book has been sent to the test e-mail address 
+	Author: Mateusz Bzdzion
