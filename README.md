@@ -1,5 +1,19 @@
+# Testing file download
+## General Info
+- 
+## Project Structure
+- [locators](https://github.com/MateusBz/file_download_tests/tree/main/locators)  - there are locators of web elements
+- [pages](https://github.com/MateusBz/file_download_tests/tree/main/pages) - there are sets of method for each test step
+- [tests](https://github.com/MateusBz/file_download_tests/tree/main/tests) - there are sets of tests
+- [drivers](https://github.com/MateusBz/file_download_tests/tree/main/drivers) - there are drivers for each browser
+- [books](https://github.com/MateusBz/file_download_tests/blob/main/books.json) - list of books titles
+- [test data](https://github.com/MateusBz/file_download_tests/blob/main/test_data.json) - test dataset  
+## Technologies
+- Python
+- Selenium WebDriver
+- Pytest
 ## Setup
-1. Clone repository and go to 'selenium_web_testing' folder
+1. Clone repository and go to 'file_download_tests' folder
 ```
  git clone https://github.com/MateusBz/file_download_tests.git
 
@@ -24,9 +38,9 @@ pytest -v --book_title 'The Complete GDPR Guidebook'
 
 6. Run selected test, add the book title in quotes
 ```
-pytest -v test_chrome.py --book_title 'The Complete GDPR Guidebook'
+pytest -vk test_chrome.py --book_title 'The Complete GDPR Guidebook'
 ```
 or
 ```
-pytest -v test_ff.py --book_title 'The Complete GDPR Guidebook'
+pytest -vk test_ff.py --book_title 'The Complete GDPR Guidebook'
 ```

@@ -35,6 +35,7 @@ def get_link_locator(book_title):
 @pytest.fixture
 def chrome_driver_init():
     driver = webdriver.Chrome(executable_path='./drivers/chromedriver')
+    driver.maximize_window()
     yield driver
     driver.quit()
 
@@ -42,5 +43,6 @@ def chrome_driver_init():
 @pytest.fixture
 def ff_driver_init():
     driver = webdriver.Firefox(executable_path='./drivers/geckodriver')
+    driver.maximize_window()
     yield driver
     driver.quit()
